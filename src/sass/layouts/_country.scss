@@ -1,0 +1,33 @@
+.country-container {
+  text-align: center;
+  padding: 3%;
+
+  .container-header {
+    padding: 2%;
+  }
+
+  img {
+    width: 60%;
+    height: 75%;
+  }
+
+  .container-footer {
+    padding: 2%;
+
+    .border {
+      cursor: pointer;
+
+      i {
+        text-align: center;
+        &:hover {
+          background-color: $hover-primary-color;
+          border-radius: 10px;
+        }
+        &:active {
+          background-color: $active-primary-color;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
